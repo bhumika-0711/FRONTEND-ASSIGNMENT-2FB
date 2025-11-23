@@ -1,0 +1,46 @@
+body {
+    background: #f2f2f2;
+    font-family: Arial;
+}
+
+.container {
+    width: 350px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+.error {
+    color: red;
+    height: 18px;
+}
+
+.result {
+    font-size: 18px;
+    background: #eee;
+    padding: 15px;
+    border-radius: 6px;
+}
